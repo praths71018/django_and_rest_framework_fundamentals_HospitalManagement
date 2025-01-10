@@ -76,6 +76,21 @@ This system manages hospitals, departments, administrators, doctors, patients, m
 - `PUT /patients/{id}/` - Update patient
 - `DELETE /patients/{id}/` - Delete patient
 
+### Medicines
+- `GET /medicines/` - List all medicines
+- `POST /medicines/` - Create new medicine
+- `GET /medicines/{medicine_id}/` - Get medicine details
+- `PUT /medicines/{medicine_id}/` - Update medicine
+- `DELETE /medicines/{medicine_id}/` - Delete medicine
+
+### Diseases
+- `GET /diseases/` - List all diseases
+- `POST /diseases/` - Create new disease
+- `GET /diseases/{disease_id}/` - Get disease details
+- `PUT /diseases/{disease_id}/` - Update disease
+- `DELETE /diseases/{disease_id}/` - Delete disease
+
+
 ### Special APIs
 - `GET /api/patient-status/?name={name}` - Get current status of a patient
 - `GET /api/patient-visits/?name={name}&start_date={date}&end_date={date}` - Get patient visit history
@@ -84,7 +99,7 @@ This system manages hospitals, departments, administrators, doctors, patients, m
 
 - Django
 - Django REST Framework
-- SQLite Database
+- MySQL Database
 - Python 3.x
 
 ## Installation & Setup
@@ -114,6 +129,81 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+## Database Setup
+
+### MySQL Configuration
+
+1. Install MySQL dependencies:
+```bash
+pip install mysqlclient
+```
+
+2. Create MySQL database:
+```sql
+CREATE DATABASE HospitalShadowfax;
+USE HospitalShadowfax;
+```
+
+
+3. Update settings.py with MySQL configuration:
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'HospitalShadowfax',
+        'USER': 'root',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+```
+
+4. Install MySQL Server:
+   - **Windows**: Download and install MySQL Server from [MySQL Official Website](https://dev.mysql.com/downloads/mysql/)
+   - **Ubuntu/Debian**:
+     ```bash
+     sudo apt update
+     sudo apt install mysql-server
+     sudo mysql_secure_installation
+     ```
+   - **macOS**:
+     ```bash
+     brew install mysql
+     brew services start mysql
+     ```
+
+5. Apply migrations:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+6. Verify connection:
+```bash
+python manage.py dbshell
+```
+
+### Common MySQL Commands
+
+```sql
+
+SHOW TABLES;
+
+select * from hospitals_hospital;
+
+select * from departments_department;
+
+select * from administrator_administrator;
+
+select * from doctors_doctor;
+
+select * from medicine_medicine;
+
+select * from diseases_disease;
+
+select * from patients_patient;
+```
 
 ## Database Schema
 
