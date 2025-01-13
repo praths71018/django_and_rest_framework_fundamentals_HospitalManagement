@@ -229,6 +229,25 @@ Each model maintains appropriate relationships with other models through foreign
 python manage.py test hospitals
 ```
 
+# Django Signals
+
+- URL: https://www.youtube.com/watch?v=a6zVm5UqOoo
+- Signals are used to send notifications or perform actions when certain events occur in the database
+- Use the `post_save` signal to send a notification when a model is saved
+- Use the `post_delete` signal to send a notification when a model is deleted
+- Use the `pre_save` signal to send a notification when a model is saved and see previous data
+- Use the `pre_delete` signal to send a notification when a model is deleted and see previous data
+- Modify the models.py file to add signals
+- Template : in models.py file
+```python
+@receiver(pre_save, sender=Medicine)
+def send_medicine_notification(sender, instance, **kwargs):
+    if instance.medicine_id:  # Check if the medicine already exists (not a new instance)
+        previous_instance = sender.objects.get(medicine_id=instance.medicine_id)
+        print(f"Medicine updated: {instance.medicine_name}")
+        print(f"Previous data: {previous_instance.medicine_name}")
+```
+
 # BitBucket Commands
 
 ## First time setup

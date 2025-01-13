@@ -3,6 +3,9 @@ from doctors.models import Doctor
 from medicine.models import Medicine
 from diseases.models import Disease
 
+from django.dispatch import receiver
+from django.db.models.signals import pre_save, pre_delete
+
 # Create your models here.
 class Patient(models.Model):
     STATUS_CHOICES = [
@@ -24,3 +27,15 @@ class Patient(models.Model):
     def __str__(self):
         return f"{self.patient_name} - {self.status}"
 
+@receiver(pre_save, sender=Patient)
+def send_patient_notification(sender, instance, **kwargs):
+    if instance.patient_id:  # Check if the patient already exists (not a new instance)
+        previous_instance = sender.objects.get(patient_id=instance.patient_id)
+        print(f"Patient updated: {instance.patient_name}")
+        print(f"Previous data: {previous_instance.patient_name}, Status: {previous_instance.status}")
+    else:
+        print(f"New patient added: {instance.patient_name}")
+
+@receiver(pre_delete, sender=Patient)
+def delete_patient_notification(sender, instance, **kwargs):
+    print(f"Patient deleted: {instance.patient_name}")
