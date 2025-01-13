@@ -218,6 +218,17 @@ The system uses the following models:
 
 Each model maintains appropriate relationships with other models through foreign keys and many-to-many relationships.
 
+# Unit Testing in Django
+
+- URL: https://www.youtube.com/watch?v=k7pf42xD4bw
+- Define a test class in the test file
+- Define a test method in the test class
+- Use the assert statement to check the expected result
+- Run the test using the test command
+```bash
+python manage.py test hospitals
+```
+
 # BitBucket Commands
 
 ## First time setup
@@ -237,4 +248,3 @@ Each model maintains appropriate relationships with other models through foreign
 - git add --all
 - git commit -m "commit message"
 - git push
-
