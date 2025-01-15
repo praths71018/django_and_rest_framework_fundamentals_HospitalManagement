@@ -17,6 +17,8 @@ class Doctor(models.Model):
 
     def __str__(self):
         return self.doctor_name
+    
+
 
 @receiver(pre_save, sender=Doctor)
 def send_doctor_notification(sender, instance, **kwargs):

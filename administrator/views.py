@@ -10,8 +10,10 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Administrator, Hospital, Department
 from .serializers import AdministratorSerializer, HospitalSerializer, DepartmentSerializer
+from rest_framework.permissions import IsAuthenticated
 
 class AdministratorListView(APIView):
+    permission_classes = [IsAuthenticated]
     def get(self, request):
         administrators = Administrator.objects.all()
         serializer = AdministratorSerializer(administrators, many=True)
@@ -70,6 +72,7 @@ class AdministratorListView(APIView):
             )
 
 class AdministratorDetailView(APIView):
+    permission_classes = [IsAuthenticated]
     def get_object(self, admin_id):
         try:
             return Administrator.objects.get(admin_id=admin_id)

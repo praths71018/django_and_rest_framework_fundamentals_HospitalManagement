@@ -248,6 +248,71 @@ def send_medicine_notification(sender, instance, **kwargs):
         print(f"Previous data: {previous_instance.medicine_name}")
 ```
 
+# Token Authentication
+
+- Token Authentication is used to authenticate the user
+
+- In settings.py file, add the following:
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ]
+}
+```
+
+- Make an app for authentication
+- Authentication app contains login and signup views.
+- It uses a User model to store user details. Predefined user model is used provided by django.
+- Define a serializer for the User model.
+- Define a view for the login view.
+- Define a view for the signup view.
+- Define urls.py file for the authentication app.
+- Then in administrator app, add the following to routes/urls you want to protect/authenticate at beginning of class:
+```python
+from rest_framework.permissions import IsAuthenticated
+class YourClass(APIView):
+permission_classes = [IsAuthenticated]
+```
+- In settings.py file, add the following:
+```python
+INSTALLED_APPS = [
+    ...
+    'rest_framework.authtoken',
+    ...
+]
+```
+
+- Now go to url which is authenicated:
+- It tells you to login
+- Login first.
+- It gives you a token
+- Open postman and go to url which is authenicated
+- Go to headers tab
+- Copy the token and paste it in the authorization header in postman
+  - Key: Authorization
+  - Value: Token <token>
+- Send request
+- It will give you the response
+
+# Celery
+
+- Celery is used to send messages and tasks asynchronously. 
+- It acts as a message broker between the application and the worker.
+- Decrease the response time of the application
+- Allows to perform tasks in the background
+- Example: sending email to the patient when the patient is admitted
+- Install celery:
+```bash
+pip install celery
+```
+- Install redis: (redis is used as the message broker)
+```bash
+brew install redis
+```
+
+- Configure celery:
+
 # BitBucket Commands
 
 ## First time setup
