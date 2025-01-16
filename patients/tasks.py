@@ -1,7 +1,6 @@
 from celery import shared_task
 from .models import Patient
 from django.core.mail import send_mail
-from system.settings import DEFAULT_FROM_EMAIL
 from system.settings import EMAIL_HOST_USER
 
 @shared_task()

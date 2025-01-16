@@ -297,6 +297,7 @@ INSTALLED_APPS = [
 
 # Celery
 
+- URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
 - Celery is used to send messages and tasks asynchronously. 
 - It acts as a message broker between the application and the worker.
 - Decrease the response time of the application
@@ -375,6 +376,32 @@ class PatientListView(APIView):
 celery -A system worker -l info
 ```
 
+# Django Middleware
+
+- URL: https://www.youtube.com/watch?v=A4PAJDkHJfI
+- Middleware is used to process requests and responses
+- Before a request is processed by views.py file , it is processed by middleware.
+- Example: If authentication is enabled for the api/class , before it is processed by views.py file , it is processed by middleware.  ('django.contrib.auth.middlewareAuthenticationMiddleware', in settings.py file)
+- Middleware is used to add custom headers to the request and response
+- Middleware is called based on sequence in settings.py file i.e. in :
+```python
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+```
+First security middleware is called , then session middleware is called , then common middleware is called , then csrf middleware is called , then authentication middleware is called and so on. Hence order is important.
+
+- To create a middleware, create a folder called middleware in the app where you want to use it.
+- Create a __init__.py file in the middleware folder.
+- Create a main.py file in the middleware folder and add functions to it you want to execute before the request is processed by views.py file by any api/class.
+- Add the middleware in settings.py file in MIDDLEWARE list.
+
 # BitBucket Commands
 
 ## First time setup
@@ -394,3 +421,28 @@ celery -A system worker -l info
 - git add --all
 - git commit -m "commit message"
 - git push
+
+## Branching
+
+- create a new branch:
+```bash
+git checkout -b <branch_name>
+```
+- push the branch to bitbucket:
+```bash
+git push -u origin <branch_name>
+```
+- merge the branch to main:
+```bash
+git checkout main
+git merge <branch_name>
+git push origin main
+```
+- delete the branch:
+```bash
+git branch -d <branch_name>
+```
+- Pull request to main branch:
+- Go to bitbucket and create a pull request from the branch to main
+- Merge the pull request
+- Delete the branch

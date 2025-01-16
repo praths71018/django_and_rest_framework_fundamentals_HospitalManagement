@@ -1,0 +1,487 @@
+2025-01-16 05:47:01,548 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:47:13,651 - INFO - Entering URL: /patients/
+2025-01-16 05:47:33,742 - INFO - Entering URL: /patients/
+2025-01-16 05:49:14,138 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:49:21,948 - INFO - Entering URL: /patients/
+2025-01-16 05:59:22,904 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:59:45,088 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:59:47,658 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:59:51,109 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/middleware/main.py changed, reloading.
+2025-01-16 05:59:54,727 - INFO - Entering URL: /patients/
+2025-01-16 05:59:54,727 - INFO - Request data: 
+2025-01-16 05:59:54,795 - INFO - Response data: 
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+
+      
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="robots" content="NONE,NOARCHIVE" />
+      
+
+      <title>Patient List – Django REST framework</title>
+
+      
+        
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap.min.css"/>
+          <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/bootstrap-tweaks.css"/>
+        
+
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/prettify.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/rest_framework/css/default.css"/>
+        
+      
+
+    
+  </head>
+
+  
+  <body class="">
+
+    <div class="wrapper">
+      
+        <div class="navbar navbar-static-top navbar-inverse"
+             role="navigation" aria-label="navbar">
+          <div class="container">
+            <span>
+              
+                <a class='navbar-brand' rel="nofollow" href='https://www.django-rest-framework.org/'>
+                    Django REST framework
+                </a>
+              
+            </span>
+            <ul class="nav navbar-nav pull-right">
+              
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </div>
+      
+
+      <div class="container">
+        
+          <ul class="breadcrumb">
+            
+              
+                <li class="active"><a href="/patients/">Patient List</a></li>
+              
+            
+          </ul>
+        
+
+        <!-- Content -->
+        <div id="content" role="main" aria-label="content">
+          
+
+          <div class="region"  aria-label="request form">
+          
+
+          
+            <form id="get-form" class="pull-right">
+              <fieldset>
+                
+                  <div class="btn-group format-selection">
+                    <a class="btn btn-primary js-tooltip" href="/patients/" rel="nofollow" title="Make a GET request on the Patient List resource">GET</a>
+
+                    <button class="btn btn-primary dropdown-toggle js-tooltip" data-toggle="dropdown" title="Specify a format for the GET request">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/patients/?format=json" rel="nofollow" title="Make a GET request on the Patient List resource with the format set to `json`">json</a>
+                        </li>
+                      
+                        <li>
+                          <a class="js-tooltip format-option" href="/patients/?format=api" rel="nofollow" title="Make a GET request on the Patient List resource with the format set to `api`">api</a>
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              </fieldset>
+            </form>
+          
+
+          
+            <form class="button-form" action="/patients/" data-method="OPTIONS">
+              <button class="btn btn-primary js-tooltip" title="Make an OPTIONS request on the Patient List resource">OPTIONS</button>
+            </form>
+          
+
+          
+
+          
+
+          
+
+          
+          </div>
+
+            <div class="content-main" role="main"  aria-label="main content">
+              <div class="page-header">
+                <h1>Patient List</h1>
+              </div>
+              <div class="pull-left">
+                
+                  
+                
+              </div>
+
+              
+
+              <div class="request-info" aria-label="request info">
+                <pre class="prettyprint"><b>GET</b> /patients/</pre>
+              </div>
+
+              <div class="response-info" aria-label="response info">
+                <pre class="prettyprint"><span class="meta nocode"><b>HTTP 200 OK</b>
+<b>Allow:</b> <span class="lit">GET, POST, HEAD, OPTIONS</span>
+<b>Content-Type:</b> <span class="lit">application/json</span>
+<b>Vary:</b> <span class="lit">Accept</span>
+
+</span>[
+    {
+        &quot;patient_id&quot;: 1,
+        &quot;patient_name&quot;: &quot;Sarah Johnson&quot;,
+        &quot;age&quot;: 35,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:shetty123@gmail.com">shetty123@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-09T09:30:37.090468Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 2,
+        &quot;patient_name&quot;: &quot;Sarah Johnson&quot;,
+        &quot;age&quot;: 35,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:shetty123@gmail.com">shetty123@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;discharged&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-10T04:54:34.648747Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 3,
+        &quot;patient_name&quot;: &quot;Pranav Desai&quot;,
+        &quot;age&quot;: 21,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:shetty123@gmail.com">shetty123@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T10:39:24.505754Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 4,
+        &quot;patient_name&quot;: &quot;Pranav Desai v2&quot;,
+        &quot;age&quot;: 23,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T10:54:35.069607Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 5,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty&quot;,
+        &quot;age&quot;: 23,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:prathamshetty0825@gmail.com">prathamshetty0825@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T10:57:02.299802Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 6,
+        &quot;patient_name&quot;: &quot;Sarah Johnson&quot;,
+        &quot;age&quot;: 35,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:prathamshetty@gmail.com">prathamshetty@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;discharged&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:05:33.918670Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 7,
+        &quot;patient_name&quot;: &quot;Sarah Johnson&quot;,
+        &quot;age&quot;: 35,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:prathamshetty0825@gmail.com">prathamshetty0825@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;discharged&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:05:56.003474Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 8,
+        &quot;patient_name&quot;: &quot;Gandalf The Grey&quot;,
+        &quot;age&quot;: 300,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:33:45.932873Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 9,
+        &quot;patient_name&quot;: &quot;Pranav Desai Covid 19&quot;,
+        &quot;age&quot;: 19,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:38:29.208201Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 10,
+        &quot;patient_name&quot;: &quot;Kollipa Charan&quot;,
+        &quot;age&quot;: 19,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:39:40.870815Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 11,
+        &quot;patient_name&quot;: &quot;Kollipa Charan&quot;,
+        &quot;age&quot;: 19,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:43:20.432607Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 12,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty&quot;,
+        &quot;age&quot;: 15,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:45:40.096390Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 13,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty&quot;,
+        &quot;age&quot;: 15,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:56:20.753473Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 14,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty alpha timeline&quot;,
+        &quot;age&quot;: 15,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T11:59:46.327477Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 15,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty beta timeline&quot;,
+        &quot;age&quot;: 14,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T12:01:30.611586Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 16,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty gamma timeline&quot;,
+        &quot;age&quot;: 14,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T12:12:52.096951Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 17,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty gamma timeline2&quot;,
+        &quot;age&quot;: 14,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T12:13:59.815883Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 18,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty gamma timeline3&quot;,
+        &quot;age&quot;: 14,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-15T12:14:57.302034Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 19,
+        &quot;patient_name&quot;: &quot;Pratham R Shetty gamma timeline4&quot;,
+        &quot;age&quot;: 14,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:mail.pranav.ad@gmail.com">mail.pranav.ad@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 2,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 1,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-16T04:22:06.248944Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 20,
+        &quot;patient_name&quot;: &quot;Aniket Choudhary&quot;,
+        &quot;age&quot;: 25,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:aniket.choudhary@shadowfax.in">aniket.choudhary@shadowfax.in</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 4,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-16T04:39:46.575232Z&quot;
+    },
+    {
+        &quot;patient_id&quot;: 21,
+        &quot;patient_name&quot;: &quot;Kollipa Charan 1&quot;,
+        &quot;age&quot;: 25,
+        &quot;phone&quot;: &quot;+1-555-9876&quot;,
+        &quot;email&quot;: &quot;<a href="mailto:venkatac418@gmail.com">venkatac418@gmail.com</a>&quot;,
+        &quot;doctor&quot;: 1,
+        &quot;medicine&quot;: 1,
+        &quot;disease&quot;: 4,
+        &quot;status&quot;: &quot;admitted&quot;,
+        &quot;visit_time&quot;: &quot;2025-01-16T05:14:16.022006Z&quot;
+    }
+]</pre>
+              </div>
+            </div>
+
+            
+              
+                <div >
+                  
+
+                  <div class="well tab-content">
+                    
+
+                    <div  id="post-generic-content-form">
+                      
+                        <form action="/patients/" method="POST" class="form-horizontal">
+                          <fieldset>
+                            
+
+
+  <div class="form-group">
+    <label for="id__content_type" class="col-sm-2 control-label">Media type:</label>
+    <div class="col-sm-10">
+      <select name="_content_type" data-override="content-type" id="id__content_type" class="form-control">
+  <option value="application/json" selected>application/json</option>
+
+  <option value="application/x-www-form-urlencoded">application/x-www-form-urlencoded</option>
+
+  <option value="multipart/form-data">multipart/form-data</option>
+
+</select>
+      <span class="help-block"></span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="id__content" class="col-sm-2 control-label">Content:</label>
+    <div class="col-sm-10">
+      <textarea name="_content" cols="40" rows="10" data-override="content" id="id__content" class="form-control">
+</textarea>
+      <span class="help-block"></span>
+    </div>
+  </div>
+
+
+                            <div class="form-actions">
+                              <button class="btn btn-primary js-tooltip" title="Make a POST request on the Patient List resource">POST</button>
+                            </div>
+                          </fieldset>
+                        </form>
+                      
+                    </div>
+                  </div>
+                </div>
+              
+
+              
+            
+          
+        </div><!-- /.content -->
+      </div><!-- /.container -->
+    </div><!-- ./wrapper -->
+
+    
+
+    
+      <script type="application/json" id="drf_csrf">
+        {
+          "csrfHeaderName": "X-CSRFTOKEN",
+          "csrfToken": "O3fk1vM6y7YIopDQvhHGOIviKYf0MHWZjRif3OxO6ikhBoXefGGHZ6cl9uFE6MEF"
+        }
+      </script>
+      <script src="/static/rest_framework/js/jquery-3.7.1.min.js"></script>
+      <script src="/static/rest_framework/js/ajax-form.js"></script>
+      <script src="/static/rest_framework/js/csrf.js"></script>
+      <script src="/static/rest_framework/js/bootstrap.min.js"></script>
+      <script src="/static/rest_framework/js/prettify-min.js"></script>
+      <script src="/static/rest_framework/js/default.js"></script>
+      <script src="/static/rest_framework/js/load-ajax-form.js"></script>
+    
+
+  </body>
+  
+</html>
+
+2025-01-16 06:05:40,953 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/tasks.py changed, reloading.
