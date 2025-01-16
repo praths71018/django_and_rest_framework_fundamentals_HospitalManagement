@@ -18,6 +18,7 @@ class Patient(models.Model):
     patient_name = models.CharField(max_length=100)
     age = models.IntegerField()
     phone = models.CharField(max_length=15)
+    email = models.EmailField(max_length=254,default='shetty123@gmail.com')
     doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
     medicine = models.ForeignKey(Medicine, on_delete=models.CASCADE)
     disease = models.ForeignKey(Disease, on_delete=models.CASCADE)

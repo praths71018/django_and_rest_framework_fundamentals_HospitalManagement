@@ -9,6 +9,7 @@ from .serializers import PatientSerializer
 from doctors.models import Doctor
 from medicine.models import Medicine 
 from diseases.models import Disease
+from .tasks import send_patient_email  # Import the task to send email
 
 class PatientListView(APIView):
     def get(self, request):
@@ -32,7 +33,9 @@ class PatientListView(APIView):
 
         serializer = PatientSerializer(data=data)
         if serializer.is_valid():
-            serializer.save()
+            patient = serializer.save()  # Save the patient instance
+            # Send email asynchronously using celery
+            send_patient_email.delay(patient.patient_id)  # Send email asynchronously
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 

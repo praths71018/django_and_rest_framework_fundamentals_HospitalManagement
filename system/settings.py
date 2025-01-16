@@ -143,6 +143,13 @@ REST_FRAMEWORK = {
     ]
 }
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Use Redis as the broker
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_TASK_SERIALIZER = 'json'
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'prathamshetty0825@gmail.com'  # Your email address
+EMAIL_HOST_PASSWORD = 'qqnyxmezodgeaonk'  # Your email password or app password
+DEFAULT_FROM_EMAIL = 'Hospital <prathamshetty0825@gmail.com>'  # Hospital is project name when creating app password

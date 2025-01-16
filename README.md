@@ -310,8 +310,70 @@ pip install celery
 ```bash
 brew install redis
 ```
+- Run redis server:
+```bash
+redis-server
+```
+
+-  pip install redis 
 
 - Configure celery:
+ - In system create a file called celery.py
+ - Add the following code:
+```python
+import os
+from celery import Celery
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', '<core>.settings')
+
+app = Celery('<core>')
+app.config_from_object('django.conf:settings', namespace='CELERY')
+app.autodiscover_tasks()
+```
+
+- In settings.py file, add the following:
+```python
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+```
+
+- Add below code in __init__.py file of the app where you want to use celery:
+```python
+from .celery import app as celery_app
+
+__all__ = ('celery_app',)
+```
+- Create a file called tasks.py in the app where you want to use celery (patients):
+```python
+from celery import shared_task
+from .models import Patient
+
+@shared_task
+def send_patient_email(email, message):
+    print(f"Sending email to {email} with message: {message}")
+```
+- Then in views.py file, add the following code:
+```python
+from .tasks import send_patient_email  # Import the task to send email
+
+class PatientListView(APIView):
+    def post(self, request):
+        data = request.data
+        patient = Patient.objects.create(**data)
+        send_patient_email.delay(patient.patient_id)  # Send email asynchronously
+        return Response({"message": "Patient created and email sent"}, status=status.HTTP_201_CREATED)
+```
+
+- Add App password in settings.py file :
+    - First go to google account settings and create app password (2 step verification should be enabled)
+    - Then add the app password in settings.py file
+    - Then add the email address in settings.py file
+
+
+- Run celery worker:
+```bash
+celery -A system worker -l info
+```
 
 # BitBucket Commands
 
