@@ -402,6 +402,44 @@ First security middleware is called , then session middleware is called , then c
 - Create a main.py file in the middleware folder and add functions to it you want to execute before the request is processed by views.py file by any api/class.
 - Add the middleware in settings.py file in MIDDLEWARE list.
 
+# Celery Beat
+
+- URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
+- Celery Beat is used to schedule tasks to run at a specific time.
+- pip install django-celery-beat
+- pip install django-celery-results
+- Add the following in settings.py file:
+```python
+INSTALLED_APPS = [
+    ...
+    'django_celery_results',
+    'django_celery_beat',
+    ...
+]
+```
+- In tasks.py file, create a function to send emails to all patients at a specific time.
+- In celery.py file, add the following code:
+```python
+app.conf.beat_schedule = {
+    'send-patient-details-every-day': {
+        'task': 'patients.tasks.send_all_patients_email',
+        'schedule': crontab(hour=14, minute=20),
+    },
+}
+```
+- Run the server:
+```bash
+python manage.py runserver
+```
+- Run celery worker:
+```bash
+celery -A system worker -l info
+```
+- Run celery beat:
+```bash
+celery -A system beat -l info
+```
+
 # BitBucket Commands
 
 ## First time setup
