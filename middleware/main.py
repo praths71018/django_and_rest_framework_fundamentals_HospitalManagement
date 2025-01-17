@@ -19,14 +19,8 @@ class LoggingMiddleware:
     # This is called when the request is received
     def __call__(self, request, *args, **kwargs):
         # Log the URL being accessed
-        self.logger.info(f'Entering URL: {request.path}')
-        
-        # Log the request data
-        self.logger.info(f'Request data: {request.body.decode("utf-8")}')
+        self.logger.info(f'Entered URL: {request.path}')
         
         response = self.get_response(request)
-        
-        # Log the response data
-        self.logger.info(f'Response data: {response.content.decode("utf-8")}')
         
         return response
