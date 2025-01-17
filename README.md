@@ -475,6 +475,28 @@ def get_decrypted_phone(self):
 ```
 - Encrypt the phone number before saving and decrypt the phone number when retrieving in the views.py file
 
+# APM using NewRelic
+
+- Create a New Relic account
+- Go to APM and Services and create a new application
+- Copy the license key
+- Download the New Relic Python Agent in the directory where the project is located
+- Create a newrelic.ini file in the directory where the project is located (downloaded from newrelic)
+- pip install newrelic
+- In terminal run the following command:
+```bash
+   newrelic-admin generate-config YOUR_NEW_RELIC_LICENSE_KEY newrelic.ini
+```
+- Modify the wsgi.py file to include the newrelic.ini file
+```python
+import newrelic.agent
+newrelic.agent.initialize('/Users/prathamshetty/Desktop/Shadowfax/Hospital/newrelic.ini')  # Update the path to your newrelic.ini file
+```
+- Run the server
+```bash
+   gunicorn system.wsgi:application
+```
+- Go to New Relic and see the application
 
 # BitBucket Commands
 

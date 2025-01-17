@@ -1328,3 +1328,476 @@ Traceback (most recent call last):
     raise ConnectionError(str(exc)) from exc
 kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
 2025-01-17 09:11:47,894 - INFO - Entered URL: /patients/visit-history/
+2025-01-17 09:57:33,837 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/wsgi.py changed, reloading.
+2025-01-17 09:57:44,033 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 10:20:39,853 - INFO - Entered URL: /
+2025-01-17 10:20:39,937 - WARNING - Not Found: /
+2025-01-17 10:21:15,649 - INFO - Entered URL: /administrator/
+2025-01-17 10:21:15,702 - WARNING - Unauthorized: /administrator/
+2025-01-17 10:21:18,901 - INFO - Entered URL: /patients/
+2025-01-17 10:21:19,177 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:19,179 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:19,181 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:19,183 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:19,185 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:19,188 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:19,262 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:19,267 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:19,270 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:19,273 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:19,276 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:19,281 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:19,291 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:19,297 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:19,312 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:19,319 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:19,323 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:19,328 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:19,337 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:19,340 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:19,349 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:19,353 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:22,785 - INFO - Entered URL: /patients/
+2025-01-17 10:21:22,829 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:22,833 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:22,835 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:22,838 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:22,842 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:22,846 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:22,848 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:22,851 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:22,855 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:22,860 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:22,862 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:22,865 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:22,868 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:22,870 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:22,873 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:22,882 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:22,886 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:22,894 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:22,899 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:22,909 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:22,914 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:22,918 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:27,684 - INFO - Entered URL: /patients/
+2025-01-17 10:21:27,737 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:27,743 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:27,749 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:27,756 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:27,759 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:27,763 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:27,767 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:27,777 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:27,782 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:27,789 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:27,794 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:27,800 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:27,803 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:27,806 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:27,810 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:27,812 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:27,814 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:27,816 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:27,818 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:27,821 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:27,824 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:27,831 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:50,656 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:21:50,672 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 10:21:50,710 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:50,723 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:50,727 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:50,730 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:50,732 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:50,734 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:50,736 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:50,739 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:50,741 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:50,744 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:50,748 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:50,750 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:50,754 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:50,758 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:50,761 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:50,771 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:50,779 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:50,786 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:50,789 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:50,793 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:50,796 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:50,799 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:26,170 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:22:26,216 - WARNING - Not Found: /authentication/login/
+2025-01-17 10:22:26,242 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:26,258 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:26,262 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:26,264 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:26,268 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:26,322 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:26,326 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:22:26,328 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:22:26,332 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:26,335 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:26,338 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:26,343 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:26,345 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:26,348 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:26,352 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:26,354 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:26,355 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:26,358 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:26,361 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:22:26,363 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:22:26,365 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:26,367 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:33,933 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:22:33,941 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 10:22:33,960 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:33,965 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:33,968 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:33,971 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:33,974 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:33,976 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:33,978 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:22:33,980 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:22:33,982 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:33,985 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:33,987 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:33,990 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:33,995 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:33,997 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:33,998 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:34,000 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:34,003 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:34,010 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:34,016 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:22:34,026 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:22:34,029 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:34,032 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:54,489 - INFO - Entered URL: /admin/
+2025-01-17 10:23:00,520 - INFO - Entered URL: /admin/
+2025-01-17 10:23:42,462 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:23:42,534 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:23:45,212 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:23:45,282 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:24:03,421 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:24:03,506 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:24:03,506 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:24:03,551 - ERROR - Internal Server Error: /admin/patients/patient/24/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/framework_django.py", line 527, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 10:24:49,961 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:11,818 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:11,875 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:25:11,876 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:25:11,924 - ERROR - Internal Server Error: /admin/patients/patient/24/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 10:25:14,513 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:15,037 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:25:18,242 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:18,334 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:25:37,762 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:37,801 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:25:37,802 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:25:37,853 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:25:37,890 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:25:40,327 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:40,380 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:27:05,904 - INFO - Entered URL: /
+2025-01-17 10:27:06,019 - WARNING - Not Found: /
+2025-01-17 10:27:11,713 - INFO - Entered URL: /patients/
+2025-01-17 10:27:11,832 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:27:11,838 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:27:11,842 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:27:11,847 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:27:11,850 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:27:11,854 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:27:11,858 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:27:11,861 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:27:11,864 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:27:11,867 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:27:11,872 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:27:11,877 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:27:11,882 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:27:11,885 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:27:11,889 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:27:11,891 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:27:11,896 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:27:11,903 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:27:11,905 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:27:11,907 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:27:11,909 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:27:11,911 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:07,123 - INFO - Entered URL: /patients/
+2025-01-17 10:37:07,220 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:07,226 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:07,229 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:07,231 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:07,233 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:07,236 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:07,245 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:37:07,248 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:37:07,252 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:07,257 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:07,260 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:07,262 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:07,265 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:07,269 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:07,272 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:07,275 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:07,287 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:07,295 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:07,299 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:37:07,305 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:37:07,309 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:07,314 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:16,772 - INFO - Entered URL: /doctors/
+2025-01-17 10:37:16,836 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:16,841 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:16,843 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:16,850 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:16,853 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:16,859 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:16,862 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:37:16,865 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:37:16,869 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:16,877 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:16,886 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:16,889 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:16,892 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:16,896 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:16,898 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:16,901 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:16,904 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:16,906 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:16,908 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:37:16,911 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:37:16,913 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:16,915 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
