@@ -401,6 +401,7 @@ First security middleware is called , then session middleware is called , then c
 - Create a __init__.py file in the middleware folder.
 - Create a main.py file in the middleware folder and add functions to it you want to execute before the request is processed by views.py file by any api/class.
 - Add the middleware in settings.py file in MIDDLEWARE list.
+- If you want to add middleware in only one api/class, add it in the class you want to protect as middleware.py file.
 
 # Celery Beat
 

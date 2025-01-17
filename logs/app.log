@@ -8,3 +8,71 @@
 2025-01-17 03:51:58,779 - INFO - Previous data: Aniket Choudhary, Status: admitted
 2025-01-17 03:51:58,837 - INFO - Entered URL: /admin/patients/patient/
 2025-01-17 03:51:58,911 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 04:07:02,801 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/models.py changed, reloading.
+2025-01-17 04:07:04,615 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/models.py changed, reloading.
+2025-01-17 04:08:36,635 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:10:31,548 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:11:34,907 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 04:13:43,343 - INFO - Entered URL: /administrator/
+2025-01-17 04:13:43,366 - WARNING - Unauthorized: /administrator/
+2025-01-17 04:13:46,688 - INFO - Entered URL: /administrator/authentication/login/
+2025-01-17 04:13:46,692 - WARNING - Not Found: /administrator/authentication/login/
+2025-01-17 04:13:51,476 - INFO - Entered URL: /administrator/authentication/login/
+2025-01-17 04:13:51,480 - WARNING - Not Found: /administrator/authentication/login/
+2025-01-17 04:14:16,233 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:14:16,262 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:16:38,186 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:18:35,194 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:19:16,253 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:20:08,398 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:20:28,260 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:20:28,291 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:21:04,148 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:21:04,161 - WARNING - Bad Request: /authentication/login/
+2025-01-17 04:21:45,270 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:21:55,891 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:23:15,613 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:23:25,674 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:24:49,692 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:24:49,744 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:25:22,566 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:25:22,575 - WARNING - Bad Request: /authentication/login/
+2025-01-17 04:25:39,601 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:25:39,609 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:26:19,567 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:26:19,858 - ERROR - Internal Server Error: /authentication/login/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py", line 55, in post
+    with open('src/logs/Login_History.log', 'a') as log_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'src/logs/Login_History.log'
+2025-01-17 04:27:38,394 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:27:55,518 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:27:59,455 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:28:41,073 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:28:53,227 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:28:53,239 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:29:29,575 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:29:29,852 - WARNING - Not Found: /authentication/login/
