@@ -44,6 +44,7 @@ class LoginView(APIView):
                 success=False,
                 ip_address=ip_address
             )
+            
             # Save the LoginHistory object contents to the log
             with open(login_history_file_path, 'a') as log_file:
                 log_file.write(f"{login_history.user.username} - {login_history.timestamp} - Failure - {login_history.ip_address}\n")

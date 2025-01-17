@@ -38,7 +38,7 @@ class PatientListView(APIView):
 
         serializer = PatientSerializer(data=data)
         if serializer.is_valid():
-            patient = serializer.save()  # Save the patient instance
+            patient = serializer.save()  # Save the patient instance and return the patient object(using models save method)
             # Send email asynchronously using celery
             send_patient_email.delay(patient.patient_id)  # Send email asynchronously
             return Response(serializer.data, status=status.HTTP_201_CREATED)

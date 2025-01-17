@@ -9,3 +9,4 @@ class LoginHistory(models.Model):
 
     def __str__(self):
         return f"{self.user.username if self.user else 'Unknown User'} - {self.timestamp} - {'Success' if self.success else 'Failure'}"
+    

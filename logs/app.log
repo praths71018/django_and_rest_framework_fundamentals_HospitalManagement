@@ -1940,4 +1940,3 @@ django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
 2025-01-17 11:08:36,689 - INFO - Entered URL: /admin/patients/patient/
 2025-01-17 11:08:36,769 - INFO - Entered URL: /admin/jsi18n/
 2025-01-17 11:09:27,932 - INFO - Entered URL: /
-2025-01-17 11:09:28,023 - WARNING - Not Found: /

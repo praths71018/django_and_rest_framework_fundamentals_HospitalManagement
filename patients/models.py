@@ -38,7 +38,7 @@ class Patient(models.Model):
 
     def get_decrypted_phone(self):
         # Decrypt the phone number when retrieving
-        return decrypt(self.phone) if self.phone else None
+        return decrypt(self.phone) if self.phone else None # Return None if decryption fails
 
     def __str__(self):
         return f"{self.patient_name} - {self.status}"

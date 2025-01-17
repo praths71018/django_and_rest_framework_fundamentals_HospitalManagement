@@ -31,4 +31,4 @@ def decrypt(txt):
     except Exception as e:
         # Log the error
         logging.getLogger("error_logger").error(traceback.format_exc())
-        return None
+        return None # Return None if decryption fails
