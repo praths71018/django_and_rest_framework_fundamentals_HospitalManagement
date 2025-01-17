@@ -1801,3 +1801,143 @@ django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
 2025-01-17 10:37:16,911 - WARNING - Not Found: /static/rest_framework/js/default.js
 2025-01-17 10:37:16,913 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
 2025-01-17 10:37:16,915 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 11:08:12,297 - INFO - Entered URL: /admin/django_celery_results/groupresult/
+2025-01-17 11:08:12,599 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:12,611 - INFO - Entered URL: /static/admin/img/search.svg
+2025-01-17 11:08:12,614 - WARNING - Not Found: /static/admin/img/search.svg
+2025-01-17 11:08:13,778 - INFO - Entered URL: /admin/django_celery_results/taskresult/
+2025-01-17 11:08:13,855 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:13,877 - INFO - Entered URL: /static/admin/img/search.svg
+2025-01-17 11:08:13,880 - WARNING - Not Found: /static/admin/img/search.svg
+2025-01-17 11:08:17,251 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 11:08:17,357 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:19,282 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:19,369 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:27,208 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:27,247 - INFO - Patient updated: Desai
+2025-01-17 11:08:27,247 - INFO - Previous data: John Doe, Status: admitted
+2025-01-17 11:08:27,331 - ERROR - Internal Server Error: /admin/patients/patient/23/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/framework_django.py", line 527, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 11:08:28,820 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:36,612 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:36,644 - INFO - Patient updated: Desai
+2025-01-17 11:08:36,644 - INFO - Previous data: John Doe, Status: admitted
+2025-01-17 11:08:36,689 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 11:08:36,769 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:09:27,932 - INFO - Entered URL: /
+2025-01-17 11:09:28,023 - WARNING - Not Found: /
