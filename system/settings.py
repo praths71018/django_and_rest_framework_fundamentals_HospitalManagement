@@ -21,6 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-s0(duey(ag)$mkbnw*rwi51mt@248-=%or9tn0w0dh3kpa6$4#'
+ENCRYPT_KEY = b'GYZNo_uRht4Ittk3yJS-UiSmZVZBI1KpsvdQJxvKbrU='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -45,7 +46,6 @@ INSTALLED_APPS = [
     'medicine',
     'doctors',
     'patients',
-    'api',
     'rest_framework.authtoken',
     'django_celery_results',
     'django_celery_beat',

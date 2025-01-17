@@ -441,6 +441,41 @@ celery -A system worker -l info
 celery -A system beat -l info
 ```
 
+# Encryption
+
+- URL: https://www.youtube.com/watch?v=AKa7VTZwLzQ
+- pip install cryptography
+- Create a file called encryption.py in the utils folder in the patients app
+- Create encrypt and decrypt functions in the encryption.py file
+- Open the terminal and run the following command to generate a key:
+```bash
+python manage.py shell
+```
+- Add the following code in the shell:
+```python
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+print(key)
+```
+- Copy the key and paste it in the ENCRYPT_KEY variable in the settings.py file
+- In models.py file, add the following code:
+```python
+from .utils.encryption import encrypt, decrypt  # Import the encrypt and decrypt functions
+
+def save(self, *args, **kwargs):
+    # Encrypt the phone number before saving
+    if self.phone:
+        self.phone = encrypt(self.phone)
+    super().save(*args, **kwargs)
+
+def get_decrypted_phone(self):
+    # Decrypt the phone number when retrieving
+    return decrypt(self.phone) if self.phone else None
+```
+- Encrypt the phone number before saving and decrypt the phone number when retrieving in the views.py file
+
+
 # BitBucket Commands
 
 ## First time setup

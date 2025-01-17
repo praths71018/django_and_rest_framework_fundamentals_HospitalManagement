@@ -9,6 +9,8 @@ from django.db.models.signals import pre_save, pre_delete
 import logging
 import os
 
+from .utils.encryption import encrypt, decrypt  # Import the encrypt and decrypt functions
+
 # Create your models here.
 class Patient(models.Model):
     STATUS_CHOICES = [
@@ -20,7 +22,7 @@ class Patient(models.Model):
     patient_id = models.AutoField(primary_key=True)
     patient_name = models.CharField(max_length=100)
     age = models.IntegerField()
-    phone = models.CharField(max_length=15)
+    phone = models.CharField(max_length=255)
     email = models.EmailField(max_length=254,default='shetty123@gmail.com')
     doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
     medicine = models.ForeignKey(Medicine, on_delete=models.CASCADE)
@@ -28,10 +30,19 @@ class Patient(models.Model):
     status = models.CharField(max_length=10, choices=STATUS_CHOICES)
     visit_time = models.DateTimeField(auto_now_add=True)
 
+    def save(self, *args, **kwargs):
+        # Encrypt the phone number before saving
+        if self.phone:
+            self.phone = encrypt(self.phone)
+        super().save(*args, **kwargs)
+
+    def get_decrypted_phone(self):
+        # Decrypt the phone number when retrieving
+        return decrypt(self.phone) if self.phone else None
+
     def __str__(self):
         return f"{self.patient_name} - {self.status}"
-
-
+    
 # Set up audit log configuration
 audit_log_file_path = os.path.join('logs', 'audit.log')  # Ensure the 'logs' directory exists
 os.makedirs(os.path.dirname(audit_log_file_path), exist_ok=True)
