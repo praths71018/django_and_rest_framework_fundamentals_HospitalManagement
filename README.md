@@ -207,7 +207,7 @@ select * from diseases_disease;
 select * from patients_patient;
 ```
 
-## Database Schema
+### Database Schema
 
 The system uses the following models:
 - Hospital
@@ -220,7 +220,7 @@ The system uses the following models:
 
 Each model maintains appropriate relationships with other models through foreign keys and many-to-many relationships.
 
-# Unit Testing in Django
+## Unit Testing in Django
 
 - URL: https://www.youtube.com/watch?v=k7pf42xD4bw
 - Define a test class in the test file
@@ -231,7 +231,7 @@ Each model maintains appropriate relationships with other models through foreign
 python manage.py test hospitals
 ```
 
-# Django Signals
+## Django Signals
 
 - URL: https://www.youtube.com/watch?v=a6zVm5UqOoo
 - Signals are used to send notifications or perform actions when certain events occur in the database
@@ -250,7 +250,7 @@ def send_medicine_notification(sender, instance, **kwargs):
         print(f"Previous data: {previous_instance.medicine_name}")
 ```
 
-# Token Authentication
+## Token Authentication
 
 - Token Authentication is used to authenticate the user
 
@@ -297,7 +297,7 @@ INSTALLED_APPS = [
 - Send request
 - It will give you the response
 
-# Celery
+## Celery
 
 - URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
 - Celery is used to send messages and tasks asynchronously. 
@@ -378,7 +378,7 @@ class PatientListView(APIView):
 celery -A system worker -l info
 ```
 
-# Django Middleware
+## Django Middleware
 
 - URL: https://www.youtube.com/watch?v=A4PAJDkHJfI
 - Middleware is used to process requests and responses
@@ -405,7 +405,7 @@ First security middleware is called , then session middleware is called , then c
 - Add the middleware in settings.py file in MIDDLEWARE list.
 - If you want to add middleware in only one api/class, add it in the class you want to protect as middleware.py file.
 
-# Celery Beat
+## Celery Beat
 
 - URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
 - Celery Beat is used to schedule tasks to run at a specific time.
@@ -443,7 +443,7 @@ celery -A system worker -l info
 celery -A system beat -l info
 ```
 
-# Encryption
+## Encryption
 
 - URL: https://www.youtube.com/watch?v=AKa7VTZwLzQ
 - pip install cryptography
@@ -477,7 +477,7 @@ def get_decrypted_phone(self):
 ```
 - Encrypt the phone number before saving and decrypt the phone number when retrieving in the views.py file
 
-# APM using NewRelic
+## APM using NewRelic
 
 - Create a New Relic account
 - Go to APM and Services and create a new application
