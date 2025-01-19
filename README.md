@@ -377,6 +377,129 @@ class PatientListView(APIView):
 celery -A system worker -l info
 ```
 
+
+# Django Middleware
+
+- URL: https://www.youtube.com/watch?v=A4PAJDkHJfI
+- Middleware is used to process requests and responses
+- Before a request is processed by views.py file , it is processed by middleware.
+- Example: If authentication is enabled for the api/class , before it is processed by views.py file , it is processed by middleware.  ('django.contrib.auth.middlewareAuthenticationMiddleware', in settings.py file)
+- Middleware is used to add custom headers to the request and response
+- Middleware is called based on sequence in settings.py file i.e. in :
+```python
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+```
+First security middleware is called , then session middleware is called , then common middleware is called , then csrf middleware is called , then authentication middleware is called and so on. Hence order is important.
+
+- To create a middleware, create a folder called middleware in the app where you want to use it.
+- Create a __init__.py file in the middleware folder.
+- Create a main.py file in the middleware folder and add functions to it you want to execute before the request is processed by views.py file by any api/class.
+- Add the middleware in settings.py file in MIDDLEWARE list.
+- If you want to add middleware in only one api/class, add it in the class you want to protect as middleware.py file.
+
+# Celery Beat
+
+- URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
+- Celery Beat is used to schedule tasks to run at a specific time.
+- pip install django-celery-beat
+- pip install django-celery-results
+- Add the following in settings.py file:
+```python
+INSTALLED_APPS = [
+    ...
+    'django_celery_results',
+    'django_celery_beat',
+    ...
+]
+```
+- In tasks.py file, create a function to send emails to all patients at a specific time.
+- In celery.py file, add the following code:
+```python
+app.conf.beat_schedule = {
+    'send-patient-details-every-day': {
+        'task': 'patients.tasks.send_all_patients_email',
+        'schedule': crontab(hour=14, minute=20),
+    },
+}
+```
+- Run the server:
+```bash
+python manage.py runserver
+```
+- Run celery worker:
+```bash
+celery -A system worker -l info
+```
+- Run celery beat:
+```bash
+celery -A system beat -l info
+```
+
+# Encryption
+
+- URL: https://www.youtube.com/watch?v=AKa7VTZwLzQ
+- pip install cryptography
+- Create a file called encryption.py in the utils folder in the patients app
+- Create encrypt and decrypt functions in the encryption.py file
+- Open the terminal and run the following command to generate a key:
+```bash
+python manage.py shell
+```
+- Add the following code in the shell:
+```python
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+print(key)
+```
+- Copy the key and paste it in the ENCRYPT_KEY variable in the settings.py file
+- In models.py file, add the following code:
+```python
+from .utils.encryption import encrypt, decrypt  # Import the encrypt and decrypt functions
+
+def save(self, *args, **kwargs):
+    # Encrypt the phone number before saving
+    if self.phone:
+        self.phone = encrypt(self.phone)
+    super().save(*args, **kwargs)
+
+def get_decrypted_phone(self):
+    # Decrypt the phone number when retrieving
+    return decrypt(self.phone) if self.phone else None
+```
+- Encrypt the phone number before saving and decrypt the phone number when retrieving in the views.py file
+
+# APM using NewRelic
+
+- Create a New Relic account
+- Go to APM and Services and create a new application
+- Copy the license key
+- Download the New Relic Python Agent in the directory where the project is located
+- Create a newrelic.ini file in the directory where the project is located (downloaded from newrelic)
+- pip install newrelic
+- In terminal run the following command:
+```bash
+   newrelic-admin generate-config YOUR_NEW_RELIC_LICENSE_KEY newrelic.ini
+```
+- Modify the wsgi.py file to include the newrelic.ini file
+```python
+import newrelic.agent
+newrelic.agent.initialize('/Users/prathamshetty/Desktop/Shadowfax/Hospital/newrelic.ini')  # Update the path to your newrelic.ini file
+```
+- Run the server
+```bash
+   gunicorn system.wsgi:application
+```
+- Go to New Relic and see the application
+
 # BitBucket Commands
 
 ## First time setup
