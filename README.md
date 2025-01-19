@@ -106,7 +106,7 @@ This system manages hospitals, departments, administrators, doctors, patients, m
 
 1. Clone the repository:
 ```bash
-git clone https://bitbucket.org/hospital_management_pratham/hospital_management.git
+git clone https://github.com/praths71018/django_and_rest_framework_fundamentals_HospitalManagement.git
 ```
 
 2. Create virtual environment:
@@ -119,12 +119,14 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-4. Run migrations:
+4. Create a folder src in same directory as virtual environment and add all the cloned files inside it.
+
+5. Run migrations:
 ```bash
 python manage.py migrate
 ```
 
-5. Run the server:
+6. Run the server:
 ```bash
 python manage.py runserver
 ```
