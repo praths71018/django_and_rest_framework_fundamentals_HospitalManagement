@@ -1,0 +1,1942 @@
+2025-01-17 03:50:39,640 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 03:50:59,838 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 03:51:18,933 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 03:51:49,359 - INFO - Entered URL: /admin/patients/patient/20/change/
+2025-01-17 03:51:49,535 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 03:51:58,750 - INFO - Entered URL: /admin/patients/patient/20/change/
+2025-01-17 03:51:58,778 - INFO - Patient updated: Aniket Choudhary
+2025-01-17 03:51:58,779 - INFO - Previous data: Aniket Choudhary, Status: admitted
+2025-01-17 03:51:58,837 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 03:51:58,911 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 04:07:02,801 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/models.py changed, reloading.
+2025-01-17 04:07:04,615 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/models.py changed, reloading.
+2025-01-17 04:08:36,635 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:10:31,548 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:11:34,907 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 04:13:43,343 - INFO - Entered URL: /administrator/
+2025-01-17 04:13:43,366 - WARNING - Unauthorized: /administrator/
+2025-01-17 04:13:46,688 - INFO - Entered URL: /administrator/authentication/login/
+2025-01-17 04:13:46,692 - WARNING - Not Found: /administrator/authentication/login/
+2025-01-17 04:13:51,476 - INFO - Entered URL: /administrator/authentication/login/
+2025-01-17 04:13:51,480 - WARNING - Not Found: /administrator/authentication/login/
+2025-01-17 04:14:16,233 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:14:16,262 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:16:38,186 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:18:35,194 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:19:16,253 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:20:08,398 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:20:28,260 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:20:28,291 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:21:04,148 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:21:04,161 - WARNING - Bad Request: /authentication/login/
+2025-01-17 04:21:45,270 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:21:55,891 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:23:15,613 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:23:25,674 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:24:49,692 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:24:49,744 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:25:22,566 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:25:22,575 - WARNING - Bad Request: /authentication/login/
+2025-01-17 04:25:39,601 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:25:39,609 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:26:19,567 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:26:19,858 - ERROR - Internal Server Error: /authentication/login/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py", line 55, in post
+    with open('src/logs/Login_History.log', 'a') as log_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'src/logs/Login_History.log'
+2025-01-17 04:27:38,394 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:27:55,518 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:27:59,455 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/authentication/views.py changed, reloading.
+2025-01-17 04:28:41,073 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:28:53,227 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:28:53,239 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 04:29:29,575 - INFO - Entered URL: /authentication/login/
+2025-01-17 04:29:29,852 - WARNING - Not Found: /authentication/login/
+2025-01-17 05:06:21,733 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:07:50,626 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/serializers.py changed, reloading.
+2025-01-17 05:08:33,362 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:08:42,353 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:08:56,367 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:03,260 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:17,340 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:22,093 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:23,714 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:28,469 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 05:09:40,281 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/urls.py changed, reloading.
+2025-01-17 05:09:53,377 - INFO - Entered URL: /patients/status
+2025-01-17 05:09:53,386 - INFO - Entered URL: /patients/status/
+2025-01-17 05:09:53,413 - WARNING - Bad Request: /patients/status/
+2025-01-17 05:10:09,507 - INFO - Entered URL: /patients/status/name=Pratham R Shetty
+2025-01-17 05:10:09,513 - WARNING - Not Found: /patients/status/name=Pratham R Shetty
+2025-01-17 05:10:32,022 - INFO - Entered URL: /api/patient-visits/
+2025-01-17 05:10:38,578 - INFO - Entered URL: /patients/
+2025-01-17 05:10:52,285 - INFO - Entered URL: /patients/status/
+2025-01-17 05:11:07,149 - INFO - Entered URL: /patients/visit-history/
+2025-01-17 05:11:17,054 - INFO - Entered URL: /patients/visit-history/
+2025-01-17 05:11:39,032 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 05:11:43,861 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 05:11:46,272 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 05:12:37,812 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 05:19:30,814 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 05:41:53,875 - INFO - Entered URL: /patients/
+2025-01-17 05:41:53,992 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 113, in _get_unverified_token_data
+    data = base64.urlsafe_b64decode(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 47, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 84, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 115, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:31:10,643 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:31:37,298 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:31:50,513 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:32:59,769 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:32:59,770 - INFO - Previous data: Sarah Johnson, Status: admitted
+2025-01-17 06:34:36,033 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:34:51,594 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:34:51,595 - INFO - Previous data: Sarah Johnson, Status: admitted
+2025-01-17 06:34:51,598 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:34:51,598 - INFO - Previous data: Sarah Johnson, Status: discharged
+2025-01-17 06:34:51,599 - INFO - Patient updated: Pranav Desai
+2025-01-17 06:34:51,599 - INFO - Previous data: Pranav Desai, Status: admitted
+2025-01-17 06:34:51,601 - INFO - Patient updated: Pranav Desai v2
+2025-01-17 06:34:51,601 - INFO - Previous data: Pranav Desai v2, Status: admitted
+2025-01-17 06:34:51,602 - INFO - Patient updated: Pratham R Shetty
+2025-01-17 06:34:51,602 - INFO - Previous data: Pratham R Shetty, Status: admitted
+2025-01-17 06:34:51,603 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:34:51,603 - INFO - Previous data: Sarah Johnson, Status: discharged
+2025-01-17 06:34:51,606 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:34:51,606 - INFO - Previous data: Sarah Johnson, Status: discharged
+2025-01-17 06:34:51,607 - INFO - Patient updated: Gandalf The Grey
+2025-01-17 06:34:51,607 - INFO - Previous data: Gandalf The Grey, Status: admitted
+2025-01-17 06:34:51,608 - INFO - Patient updated: Pranav Desai Covid 19
+2025-01-17 06:34:51,608 - INFO - Previous data: Pranav Desai Covid 19, Status: discharged
+2025-01-17 06:34:51,610 - INFO - Patient updated: Kollipa Charan
+2025-01-17 06:34:51,610 - INFO - Previous data: Kollipa Charan, Status: admitted
+2025-01-17 06:34:51,612 - INFO - Patient updated: Kollipa Charan
+2025-01-17 06:34:51,612 - INFO - Previous data: Kollipa Charan, Status: admitted
+2025-01-17 06:34:51,614 - INFO - Patient updated: Pratham R Shetty
+2025-01-17 06:34:51,614 - INFO - Previous data: Pratham R Shetty, Status: admitted
+2025-01-17 06:34:51,619 - INFO - Patient updated: Pratham R Shetty
+2025-01-17 06:34:51,619 - INFO - Previous data: Pratham R Shetty, Status: admitted
+2025-01-17 06:34:51,621 - INFO - Patient updated: Pratham R Shetty alpha timeline
+2025-01-17 06:34:51,621 - INFO - Previous data: Pratham R Shetty alpha timeline, Status: admitted
+2025-01-17 06:34:51,623 - INFO - Patient updated: Pratham R Shetty beta timeline
+2025-01-17 06:34:51,623 - INFO - Previous data: Pratham R Shetty beta timeline, Status: admitted
+2025-01-17 06:34:51,625 - INFO - Patient updated: Pratham R Shetty gamma
+2025-01-17 06:34:51,625 - INFO - Previous data: Pratham R Shetty gamma, Status: admitted
+2025-01-17 06:34:51,628 - INFO - Patient updated: Pratham R Shetty gamma timeline2
+2025-01-17 06:34:51,628 - INFO - Previous data: Pratham R Shetty gamma timeline2, Status: admitted
+2025-01-17 06:34:51,629 - INFO - Patient updated: Pratham R Shetty gamma timeline3
+2025-01-17 06:34:51,629 - INFO - Previous data: Pratham R Shetty gamma timeline3, Status: admitted
+2025-01-17 06:34:51,630 - INFO - Patient updated: Pratham R Shetty gamma timeline4
+2025-01-17 06:34:51,630 - INFO - Previous data: Pratham R Shetty gamma timeline4, Status: admitted
+2025-01-17 06:34:51,646 - INFO - Patient updated: Aniket Choudhary
+2025-01-17 06:34:51,646 - INFO - Previous data: Aniket Choudhary, Status: discharged
+2025-01-17 06:34:51,649 - INFO - Patient updated: Kollipa Charan 1
+2025-01-17 06:34:51,649 - INFO - Previous data: Kollipa Charan 1, Status: admitted
+2025-01-17 06:37:03,532 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:41:07,741 - INFO - Entered URL: /patients/
+2025-01-17 06:41:07,788 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:41:37,484 - INFO - Entered URL: /patients/
+2025-01-17 06:41:37,515 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:44:16,038 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:44:27,867 - INFO - Entered URL: /patients/
+2025-01-17 06:44:27,921 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:44:42,699 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:48:17,749 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:48:17,749 - INFO - Previous data: Sarah Johnson, Status: admitted
+2025-01-17 06:50:16,660 - INFO - Patient updated: Sarah Johnson
+2025-01-17 06:50:16,661 - INFO - Previous data: Sarah Johnson, Status: admitted
+2025-01-17 06:51:00,218 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:51:08,213 - INFO - Entered URL: /patients/
+2025-01-17 06:51:08,287 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:52:41,150 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 06:52:45,065 - INFO - Entered URL: /patients/
+2025-01-17 06:52:45,108 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 53, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 06:53:11,038 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 07:11:14,179 - INFO - Entered URL: /patients/
+2025-01-17 07:11:14,325 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 07:17:51,599 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 07:18:48,180 - INFO - Entered URL: /patients/
+2025-01-17 07:18:48,255 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 130, in _verify_signature
+    h.verify(data[-32:])
+cryptography.exceptions.InvalidSignature: Signature did not match digest.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 21, in get
+    patient.phone = patient.get_decrypted_phone()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 52, in get_decrypted_phone
+    return cipher_suite.decrypt(self.phone.encode()).decode() if self.phone else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 89, in decrypt
+    return self._decrypt_data(data, timestamp, time_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 148, in _decrypt_data
+    self._verify_signature(data)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/cryptography/fernet.py", line 132, in _verify_signature
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+2025-01-17 07:20:51,967 - INFO - Entered URL: /admin/
+2025-01-17 07:20:56,589 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 07:20:56,665 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 07:20:58,760 - INFO - Entered URL: /admin/patients/patient/21/change/
+2025-01-17 07:20:58,845 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 07:21:09,123 - INFO - Entered URL: /admin/patients/patient/21/change/
+2025-01-17 07:21:09,164 - INFO - Patient updated: Kollipa Charan
+2025-01-17 07:21:09,165 - INFO - Previous data: Kollipa Charan 1, Status: admitted
+2025-01-17 07:21:09,233 - ERROR - Internal Server Error: /admin/patients/patient/21/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 48, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 08:04:02,965 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:04:05,905 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:04:20,952 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:04:30,832 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:04:39,857 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:05:52,865 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 08:07:33,759 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-17 08:09:16,911 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py changed, reloading.
+2025-01-17 08:10:25,807 - INFO - Entered URL: /patients/
+2025-01-17 08:12:03,050 - INFO - Entered URL: /patients/
+2025-01-17 08:12:03,099 - INFO - New patient added: John Doe
+2025-01-17 08:12:03,194 - ERROR - Connection to Redis lost: Retry (0/20) now.
+2025-01-17 08:12:03,194 - ERROR - Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-01-17 08:12:04,198 - ERROR - Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-01-17 08:12:05,203 - ERROR - Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-01-17 08:12:06,207 - ERROR - Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-01-17 08:12:07,213 - ERROR - Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-01-17 08:12:07,647 - INFO - Entered URL: /patients/
+2025-01-17 08:12:07,658 - INFO - New patient added: John Doe
+2025-01-17 08:12:07,665 - ERROR - Connection to Redis lost: Retry (0/20) now.
+2025-01-17 08:12:07,666 - ERROR - Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-01-17 08:12:08,217 - ERROR - Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-01-17 08:12:08,672 - ERROR - Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-01-17 08:12:09,223 - ERROR - Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-01-17 08:12:09,678 - ERROR - Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-01-17 08:12:10,228 - ERROR - Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-01-17 08:12:10,684 - ERROR - Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-01-17 08:12:11,235 - ERROR - Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-01-17 08:12:11,690 - ERROR - Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-01-17 08:12:12,241 - ERROR - Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-01-17 08:12:12,695 - ERROR - Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-01-17 08:12:13,247 - ERROR - Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-01-17 08:12:13,698 - ERROR - Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-01-17 08:12:14,251 - ERROR - Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-01-17 08:12:14,704 - ERROR - Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-01-17 08:12:15,257 - ERROR - Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-01-17 08:12:15,706 - ERROR - Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-01-17 08:12:16,260 - ERROR - Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-01-17 08:12:16,712 - ERROR - Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-01-17 08:12:17,266 - ERROR - Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-01-17 08:12:17,718 - ERROR - Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-01-17 08:12:18,272 - ERROR - Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-01-17 08:12:18,724 - ERROR - Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-01-17 08:12:19,279 - ERROR - Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-01-17 08:12:19,730 - ERROR - Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-01-17 08:12:20,285 - ERROR - Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-01-17 08:12:20,735 - ERROR - Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-01-17 08:12:21,291 - ERROR - Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-01-17 08:12:21,741 - ERROR - Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-01-17 08:12:22,297 - CRITICAL - 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-01-17 08:12:22,346 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 127, in reconnect_on_error
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 957, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 800, in send_task
+    self.backend.on_task_call(P, task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 373, in on_task_call
+    self.result_consumer.consume_from(task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 384, in ensure
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/commands/core.py", line 2009, in mget
+    return self.execute_command("MGET", *args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 43, in post
+    send_patient_email.delay(patient.patient_id)  # Send email asynchronously
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 798, in send_task
+    with P.connection._reraise_as_library_errors():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
+2025-01-17 08:12:22,742 - ERROR - Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-01-17 08:12:23,749 - ERROR - Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-01-17 08:12:24,757 - ERROR - Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-01-17 08:12:25,762 - ERROR - Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-01-17 08:12:26,770 - CRITICAL - 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-01-17 08:12:26,802 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 127, in reconnect_on_error
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 957, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 800, in send_task
+    self.backend.on_task_call(P, task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 373, in on_task_call
+    self.result_consumer.consume_from(task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 384, in ensure
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/commands/core.py", line 2009, in mget
+    return self.execute_command("MGET", *args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 43, in post
+    send_patient_email.delay(patient.patient_id)  # Send email asynchronously
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 798, in send_task
+    with P.connection._reraise_as_library_errors():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
+2025-01-17 08:12:47,767 - INFO - Entered URL: /patients/
+2025-01-17 08:14:36,744 - INFO - Entered URL: /patients/
+2025-01-17 08:14:36,858 - INFO - New patient added: John
+2025-01-17 08:14:36,919 - ERROR - Connection to Redis lost: Retry (0/20) now.
+2025-01-17 08:14:36,919 - ERROR - Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-01-17 08:14:37,921 - ERROR - Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-01-17 08:14:38,927 - ERROR - Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-01-17 08:14:39,207 - INFO - Entered URL: /patients/
+2025-01-17 08:14:39,930 - ERROR - Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-01-17 08:14:40,936 - ERROR - Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-01-17 08:14:41,942 - ERROR - Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-01-17 08:14:42,948 - ERROR - Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-01-17 08:14:43,955 - ERROR - Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-01-17 08:14:44,961 - ERROR - Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-01-17 08:14:45,967 - ERROR - Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-01-17 08:14:46,969 - ERROR - Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-01-17 08:14:47,973 - ERROR - Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-01-17 08:14:48,979 - ERROR - Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-01-17 08:14:49,986 - ERROR - Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-01-17 08:14:50,992 - ERROR - Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-01-17 08:14:52,001 - ERROR - Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-01-17 08:14:53,009 - ERROR - Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-01-17 08:14:54,015 - ERROR - Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-01-17 08:14:55,021 - ERROR - Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-01-17 08:14:56,165 - CRITICAL - 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-01-17 08:14:56,245 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 127, in reconnect_on_error
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 957, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 800, in send_task
+    self.backend.on_task_call(P, task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 373, in on_task_call
+    self.result_consumer.consume_from(task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 384, in ensure
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/commands/core.py", line 2009, in mget
+    return self.execute_command("MGET", *args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 43, in post
+    send_patient_email.delay(patient.patient_id)  # Send email asynchronously
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 798, in send_task
+    with P.connection._reraise_as_library_errors():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
+2025-01-17 08:17:24,002 - INFO - Entered URL: /admin/
+2025-01-17 08:17:28,468 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 08:17:28,537 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 08:17:30,257 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 08:17:30,313 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 09:09:56,549 - INFO - Entered URL: /administrator/1/
+2025-01-17 09:09:56,587 - WARNING - Unauthorized: /administrator/1/
+2025-01-17 09:10:04,240 - INFO - Entered URL: /patients/
+2025-01-17 09:10:54,067 - INFO - Entered URL: /patients/
+2025-01-17 09:10:54,095 - INFO - New patient added: Pratham
+2025-01-17 09:10:54,156 - ERROR - Connection to Redis lost: Retry (0/20) now.
+2025-01-17 09:10:54,157 - ERROR - Connection to Redis lost: Retry (1/20) in 1.00 second.
+2025-01-17 09:10:55,159 - ERROR - Connection to Redis lost: Retry (2/20) in 1.00 second.
+2025-01-17 09:10:56,165 - ERROR - Connection to Redis lost: Retry (3/20) in 1.00 second.
+2025-01-17 09:10:57,171 - ERROR - Connection to Redis lost: Retry (4/20) in 1.00 second.
+2025-01-17 09:10:58,177 - ERROR - Connection to Redis lost: Retry (5/20) in 1.00 second.
+2025-01-17 09:10:59,183 - ERROR - Connection to Redis lost: Retry (6/20) in 1.00 second.
+2025-01-17 09:11:00,189 - ERROR - Connection to Redis lost: Retry (7/20) in 1.00 second.
+2025-01-17 09:11:01,195 - ERROR - Connection to Redis lost: Retry (8/20) in 1.00 second.
+2025-01-17 09:11:02,201 - ERROR - Connection to Redis lost: Retry (9/20) in 1.00 second.
+2025-01-17 09:11:02,661 - INFO - Entered URL: /patients-list/
+2025-01-17 09:11:02,666 - WARNING - Not Found: /patients-list/
+2025-01-17 09:11:03,208 - ERROR - Connection to Redis lost: Retry (10/20) in 1.00 second.
+2025-01-17 09:11:04,214 - ERROR - Connection to Redis lost: Retry (11/20) in 1.00 second.
+2025-01-17 09:11:05,220 - ERROR - Connection to Redis lost: Retry (12/20) in 1.00 second.
+2025-01-17 09:11:06,226 - ERROR - Connection to Redis lost: Retry (13/20) in 1.00 second.
+2025-01-17 09:11:07,246 - ERROR - Connection to Redis lost: Retry (14/20) in 1.00 second.
+2025-01-17 09:11:08,252 - ERROR - Connection to Redis lost: Retry (15/20) in 1.00 second.
+2025-01-17 09:11:09,255 - ERROR - Connection to Redis lost: Retry (16/20) in 1.00 second.
+2025-01-17 09:11:10,261 - ERROR - Connection to Redis lost: Retry (17/20) in 1.00 second.
+2025-01-17 09:11:11,264 - ERROR - Connection to Redis lost: Retry (18/20) in 1.00 second.
+2025-01-17 09:11:12,271 - ERROR - Connection to Redis lost: Retry (19/20) in 1.00 second.
+2025-01-17 09:11:13,275 - CRITICAL - 
+Retry limit exceeded while trying to reconnect to the Celery redis result store backend. The Celery application must be restarted.
+
+2025-01-17 09:11:13,311 - ERROR - Internal Server Error: /patients/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 127, in reconnect_on_error
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 177, in _consume_from
+    self._pubsub.subscribe(key)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 957, in subscribe
+    ret_val = self.execute_command("SUBSCRIBE", *new_channels.keys())
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 786, in execute_command
+    self.connection = self.connection_pool.get_connection(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 357, in connect
+    sock = self.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/retry.py", line 62, in call_with_retry
+    return do()
+           ^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 358, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 730, in _connect
+    raise err
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 718, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 472, in _reraise_as_library_errors
+    yield
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 800, in send_task
+    self.backend.on_task_call(P, task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 373, in on_task_call
+    self.result_consumer.consume_from(task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 169, in consume_from
+    return self.start(task_id)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 147, in start
+    self._consume_from(initial_task_id)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 176, in _consume_from
+    with self.reconnect_on_error():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 130, in reconnect_on_error
+    self._ensure(self._reconnect_pubsub, ())
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 384, in ensure
+    return retry_over_time(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/utils/functional.py", line 318, in retry_over_time
+    return fun(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/backends/redis.py", line 106, in _reconnect_pubsub
+    metas = self.backend.client.mget(self.subscribed_to)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/commands/core.py", line 2009, in mget
+    return self.execute_command("MGET", *args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:6379. Connection refused.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/views.py", line 43, in post
+    send_patient_email.delay(patient.patient_id)  # Send email asynchronously
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 444, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/task.py", line 594, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/celery/app/base.py", line 798, in send_task
+    with P.connection._reraise_as_library_errors():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.8/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/kombu/connection.py", line 476, in _reraise_as_library_errors
+    raise ConnectionError(str(exc)) from exc
+kombu.exceptions.OperationalError: Error 61 connecting to localhost:6379. Connection refused.
+2025-01-17 09:11:47,894 - INFO - Entered URL: /patients/visit-history/
+2025-01-17 09:57:33,837 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/wsgi.py changed, reloading.
+2025-01-17 09:57:44,033 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py changed, reloading.
+2025-01-17 10:20:39,853 - INFO - Entered URL: /
+2025-01-17 10:20:39,937 - WARNING - Not Found: /
+2025-01-17 10:21:15,649 - INFO - Entered URL: /administrator/
+2025-01-17 10:21:15,702 - WARNING - Unauthorized: /administrator/
+2025-01-17 10:21:18,901 - INFO - Entered URL: /patients/
+2025-01-17 10:21:19,177 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:19,179 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:19,181 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:19,183 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:19,185 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:19,188 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:19,262 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:19,267 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:19,270 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:19,273 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:19,276 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:19,281 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:19,291 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:19,297 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:19,312 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:19,319 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:19,323 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:19,328 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:19,337 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:19,340 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:19,349 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:19,353 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:22,785 - INFO - Entered URL: /patients/
+2025-01-17 10:21:22,829 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:22,833 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:22,835 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:22,838 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:22,842 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:22,846 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:22,848 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:22,851 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:22,855 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:22,860 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:22,862 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:22,865 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:22,868 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:22,870 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:22,873 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:22,882 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:22,886 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:22,894 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:22,899 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:22,909 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:22,914 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:22,918 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:27,684 - INFO - Entered URL: /patients/
+2025-01-17 10:21:27,737 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:27,743 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:27,749 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:27,756 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:27,759 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:27,763 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:27,767 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:27,777 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:27,782 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:27,789 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:27,794 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:27,800 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:27,803 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:27,806 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:27,810 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:27,812 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:27,814 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:27,816 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:27,818 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:27,821 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:27,824 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:27,831 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:50,656 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:21:50,672 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 10:21:50,710 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:50,723 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:21:50,727 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:50,730 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:21:50,732 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:50,734 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:21:50,736 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:21:50,739 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:21:50,741 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:50,744 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:21:50,748 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:50,750 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:21:50,754 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:50,758 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:21:50,761 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:50,771 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:21:50,779 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:50,786 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:21:50,789 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:21:50,793 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:21:50,796 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:21:50,799 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:26,170 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:22:26,216 - WARNING - Not Found: /authentication/login/
+2025-01-17 10:22:26,242 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:26,258 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:26,262 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:26,264 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:26,268 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:26,322 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:26,326 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:22:26,328 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:22:26,332 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:26,335 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:26,338 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:26,343 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:26,345 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:26,348 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:26,352 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:26,354 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:26,355 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:26,358 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:26,361 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:22:26,363 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:22:26,365 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:26,367 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:33,933 - INFO - Entered URL: /authentication/login/
+2025-01-17 10:22:33,941 - WARNING - Method Not Allowed: /authentication/login/
+2025-01-17 10:22:33,960 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:33,965 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:22:33,968 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:33,971 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:22:33,974 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:33,976 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:22:33,978 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:22:33,980 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:22:33,982 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:33,985 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:22:33,987 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:33,990 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:22:33,995 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:33,997 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:22:33,998 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:34,000 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:22:34,003 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:34,010 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:22:34,016 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:22:34,026 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:22:34,029 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:34,032 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:22:54,489 - INFO - Entered URL: /admin/
+2025-01-17 10:23:00,520 - INFO - Entered URL: /admin/
+2025-01-17 10:23:42,462 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:23:42,534 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:23:45,212 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:23:45,282 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:24:03,421 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:24:03,506 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:24:03,506 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:24:03,551 - ERROR - Internal Server Error: /admin/patients/patient/24/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/framework_django.py", line 527, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 10:24:49,961 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:11,818 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:11,875 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:25:11,876 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:25:11,924 - ERROR - Internal Server Error: /admin/patients/patient/24/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 10:25:14,513 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:15,037 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:25:18,242 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:18,334 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:25:37,762 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:37,801 - INFO - Patient updated: Pranav Desai
+2025-01-17 10:25:37,802 - INFO - Previous data: John, Status: discharged
+2025-01-17 10:25:37,853 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 10:25:37,890 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:25:40,327 - INFO - Entered URL: /admin/patients/patient/24/change/
+2025-01-17 10:25:40,380 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 10:27:05,904 - INFO - Entered URL: /
+2025-01-17 10:27:06,019 - WARNING - Not Found: /
+2025-01-17 10:27:11,713 - INFO - Entered URL: /patients/
+2025-01-17 10:27:11,832 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:27:11,838 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:27:11,842 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:27:11,847 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:27:11,850 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:27:11,854 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:27:11,858 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:27:11,861 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:27:11,864 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:27:11,867 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:27:11,872 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:27:11,877 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:27:11,882 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:27:11,885 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:27:11,889 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:27:11,891 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:27:11,896 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:27:11,903 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:27:11,905 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:27:11,907 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:27:11,909 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:27:11,911 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:07,123 - INFO - Entered URL: /patients/
+2025-01-17 10:37:07,220 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:07,226 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:07,229 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:07,231 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:07,233 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:07,236 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:07,245 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:37:07,248 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:37:07,252 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:07,257 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:07,260 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:07,262 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:07,265 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:07,269 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:07,272 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:07,275 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:07,287 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:07,295 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:07,299 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:37:07,305 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:37:07,309 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:07,314 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:16,772 - INFO - Entered URL: /doctors/
+2025-01-17 10:37:16,836 - INFO - Entered URL: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:16,841 - WARNING - Not Found: /static/rest_framework/css/bootstrap.min.css
+2025-01-17 10:37:16,843 - INFO - Entered URL: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:16,850 - WARNING - Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+2025-01-17 10:37:16,853 - INFO - Entered URL: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:16,859 - WARNING - Not Found: /static/rest_framework/css/prettify.css
+2025-01-17 10:37:16,862 - INFO - Entered URL: /static/rest_framework/css/default.css
+2025-01-17 10:37:16,865 - WARNING - Not Found: /static/rest_framework/css/default.css
+2025-01-17 10:37:16,869 - INFO - Entered URL: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:16,877 - WARNING - Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+2025-01-17 10:37:16,886 - INFO - Entered URL: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:16,889 - WARNING - Not Found: /static/rest_framework/js/ajax-form.js
+2025-01-17 10:37:16,892 - INFO - Entered URL: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:16,896 - WARNING - Not Found: /static/rest_framework/js/csrf.js
+2025-01-17 10:37:16,898 - INFO - Entered URL: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:16,901 - WARNING - Not Found: /static/rest_framework/js/bootstrap.min.js
+2025-01-17 10:37:16,904 - INFO - Entered URL: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:16,906 - WARNING - Not Found: /static/rest_framework/js/prettify-min.js
+2025-01-17 10:37:16,908 - INFO - Entered URL: /static/rest_framework/js/default.js
+2025-01-17 10:37:16,911 - WARNING - Not Found: /static/rest_framework/js/default.js
+2025-01-17 10:37:16,913 - INFO - Entered URL: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 10:37:16,915 - WARNING - Not Found: /static/rest_framework/js/load-ajax-form.js
+2025-01-17 11:08:12,297 - INFO - Entered URL: /admin/django_celery_results/groupresult/
+2025-01-17 11:08:12,599 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:12,611 - INFO - Entered URL: /static/admin/img/search.svg
+2025-01-17 11:08:12,614 - WARNING - Not Found: /static/admin/img/search.svg
+2025-01-17 11:08:13,778 - INFO - Entered URL: /admin/django_celery_results/taskresult/
+2025-01-17 11:08:13,855 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:13,877 - INFO - Entered URL: /static/admin/img/search.svg
+2025-01-17 11:08:13,880 - WARNING - Not Found: /static/admin/img/search.svg
+2025-01-17 11:08:17,251 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 11:08:17,357 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:19,282 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:19,369 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:08:27,208 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:27,247 - INFO - Patient updated: Desai
+2025-01-17 11:08:27,247 - INFO - Previous data: John Doe, Status: admitted
+2025-01-17 11:08:27,331 - ERROR - Internal Server Error: /admin/patients/patient/23/change/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/framework_django.py", line 527, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1964, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1871, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1294, in save_model
+    obj.save()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/patients/models.py", line 37, in save
+    super().save(*args, **kwargs)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1130, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/base.py", line 1195, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 2003, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/database_dbapi2.py", line 42, in execute
+    return self.__wrapped__.execute(sql, parameters, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/MySQLdb/connections.py", line 265, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'phone' at row 1")
+2025-01-17 11:08:28,820 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:36,612 - INFO - Entered URL: /admin/patients/patient/23/change/
+2025-01-17 11:08:36,644 - INFO - Patient updated: Desai
+2025-01-17 11:08:36,644 - INFO - Previous data: John Doe, Status: admitted
+2025-01-17 11:08:36,689 - INFO - Entered URL: /admin/patients/patient/
+2025-01-17 11:08:36,769 - INFO - Entered URL: /admin/jsi18n/
+2025-01-17 11:09:27,932 - INFO - Entered URL: /
