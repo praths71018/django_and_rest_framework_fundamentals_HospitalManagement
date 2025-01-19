@@ -106,7 +106,7 @@ This system manages hospitals, departments, administrators, doctors, patients, m
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/praths71018/django_and_rest_framework_fundamentals_HospitalManagement.git
+git clone https://bitbucket.org/hospital_management_pratham/hospital_management.git
 ```
 
 2. Create virtual environment:
@@ -119,14 +119,12 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-4. Create a src folder in the same directory and add all the files of the repository in that directory
-
-5. Run migrations:
+4. Run migrations:
 ```bash
 python manage.py migrate
 ```
 
-6. Run the server:
+5. Run the server:
 ```bash
 python manage.py runserver
 ```
@@ -299,6 +297,7 @@ INSTALLED_APPS = [
 
 # Celery
 
+- URL: https://www.youtube.com/watch?v=JYQG7zlLJrE&t=445s
 - Celery is used to send messages and tasks asynchronously. 
 - It acts as a message broker between the application and the worker.
 - Decrease the response time of the application
@@ -376,7 +375,6 @@ class PatientListView(APIView):
 ```bash
 celery -A system worker -l info
 ```
-
 
 # Django Middleware
 
@@ -519,3 +517,28 @@ newrelic.agent.initialize('/Users/prathamshetty/Desktop/Shadowfax/Hospital/newre
 - git add --all
 - git commit -m "commit message"
 - git push
+
+## Branching
+
+- create a new branch:
+```bash
+git checkout -b <branch_name>
+```
+- push the branch to bitbucket:
+```bash
+git push -u origin <branch_name>
+```
+- merge the branch to main:
+```bash
+git checkout main
+git merge <branch_name>
+git push origin main
+```
+- delete the branch:
+```bash
+git branch -d <branch_name>
+```
+- Pull request to main branch:
+- Go to bitbucket and create a pull request from the branch to main
+- Merge the pull request
+- Delete the branch
