@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-s0(duey(ag)$mkbnw*rwi51mt@248-=%or9tn0w0dh3kpa6$4#'
-ENCRYPT_KEY = b'GYZNo_uRht4Ittk3yJS-UiSmZVZBI1KpsvdQJxvKbrU='
+ENCRYPT_KEY = b''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -156,5 +156,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'prathamshetty0825@gmail.com'  # my email address
-EMAIL_HOST_PASSWORD = 'qqnyxmezodgeaonk'  # Your email password or app password
+EMAIL_HOST_PASSWORD = ''  # Your email password or app password
 DEFAULT_FROM_EMAIL = 'Hospital <prathamshetty0825@gmail.com>'  # Hospital is project name when creating app password
