@@ -27,4 +27,5 @@ urlpatterns = [
     path('doctors/', include('doctors.urls')),
     path('patients/', include('patients.urls')),
     path('authentication/', include('authentication.urls')),
+    path('csv_parser/', include('csv_parser.urls')),
 ]

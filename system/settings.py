@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_celery_results',
     'django_celery_beat',
+    'csv_parser',
 ]
 
 MIDDLEWARE = [
@@ -92,7 +93,7 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.mysql',
 		'NAME': 'HospitalShadowfax',
 		'USER': 'root',
-		'PASSWORD': '',
+		'PASSWORD': 'pr@tham262003',
 		'HOST':'localhost',
 		'PORT':'3306',
 	}
