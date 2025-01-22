@@ -159,3 +159,20 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'prathamshetty0825@gmail.com'  # my email address
 EMAIL_HOST_PASSWORD = 'qqnyxmezodgeaonk'  # Your email password or app password
 DEFAULT_FROM_EMAIL = 'Hospital <prathamshetty0825@gmail.com>'  # Hospital is project name when creating app password
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379/1',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'CONNECTION_POOL_KWARGS': {
+                'max_connections': 100,
+                'retry_on_timeout': True,
+            },
+        }
+    }
+}
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_CACHE_ALIAS = 'default'

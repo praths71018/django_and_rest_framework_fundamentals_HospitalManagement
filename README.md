@@ -498,6 +498,37 @@ newrelic.agent.initialize('/Users/prathamshetty/Desktop/Shadowfax/Hospital/newre
 ```
 - Go to New Relic and see the application
 
+## Redis Caching
+- start redis server
+- pip install django-redis   
+- In settings.py file, add the following code:
+```python
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379/1',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'CONNECTION_POOL_KWARGS': {
+                'max_connections': 100,
+                'retry_on_timeout': True,
+            },
+        }
+    }
+}
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_CACHE_ALIAS = 'default'
+```
+- In views.py file, add the following code: (see medicine/views.py file)
+```python
+from django.core.cache import cache
+
+def your_view(request):
+    cache.set('your_key', 'your_value', timeout=60)  # Cache the value for 60 seconds
+    return HttpResponse('Value cached')
+```
+
 # BitBucket Commands
 
 ## First time setup
@@ -542,3 +573,8 @@ git branch -d <branch_name>
 - Go to bitbucket and create a pull request from the branch to main
 - Merge the pull request
 - Delete the branch
+
+## Remove files for git
+- git rm -r --cached <file_name>
+- git commit -m "Removed <file_name> from git"
+- git push origin main

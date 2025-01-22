@@ -6,11 +6,17 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Medicine
 from .serializers import MedicineSerializer
+from django.core.cache import cache
+import time # for caching time
 
 class MedicineListView(APIView):
     def get(self, request):
+        cache_data = cache.get('all_medicines') # all_medicines is the key for the cache
+        if cache_data: # 1st time request will be slow as taking from db, so we will cache the data and return the cached data
+            return Response(cache_data) # if cache_data is not None, return the cache_data
         medicines = Medicine.objects.all()
         serializer = MedicineSerializer(medicines, many=True)
+        cache.set('all_medicines', serializer.data, timeout=60*60) # cache the data for 1 hour
         return Response(serializer.data)
 
     def post(self, request):

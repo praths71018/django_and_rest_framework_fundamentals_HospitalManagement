@@ -2728,3 +2728,92 @@ django.db.utils.ProgrammingError: (1146, "Table 'hospitalshadowfax.csv_parser_us
 2025-01-20 06:50:48,910 - INFO - Entered URL: /csv_parser/csv/
 2025-01-20 06:51:00,019 - INFO - Entered URL: /csv_parser/csv/
 2025-01-20 06:51:02,663 - INFO - Entered URL: /csv_parser/csv/
+2025-01-21 12:01:41,317 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-21 12:02:05,301 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-21 12:04:08,830 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:04:30,289 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:06:44,800 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:06:49,651 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:07:02,487 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:07:06,176 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:07:17,904 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py changed, reloading.
+2025-01-21 12:08:12,126 - INFO - /Users/prathamshetty/Desktop/Shadowfax/Hospital/src/system/settings.py changed, reloading.
+2025-01-21 12:08:30,853 - INFO - Entered URL: /medicines/
+2025-01-21 12:08:30,878 - WARNING - Not Found: /medicines/
+2025-01-21 12:08:46,778 - INFO - Entered URL: /medicine/
+2025-01-21 12:08:46,827 - ERROR - Internal Server Error: /medicine/
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/client/default.py", line 260, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/framework_django.py", line 527, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/component_djangorestframework.py", line 60, in _nr_wrapper_APIView_dispatch_
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/hooks/component_djangorestframework.py", line 67, in _handle_exception_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/src/medicine/views.py", line 14, in get
+    cache_data = cache.get('all_medicines') # all_medicines is the key for the cache
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/django_redis/client/default.py", line 258, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/newrelic/api/datastore_trace.py", line 231, in _nr_datastore_trace_wrapper_
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/commands/core.py", line 1822, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 1422, in get_connection
+    connection.connect()
+  File "/Users/prathamshetty/Desktop/Shadowfax/Hospital/lib/python3.11/site-packages/redis/connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2025-01-21 12:09:37,750 - INFO - Entered URL: /medicine/
+2025-01-21 12:09:54,660 - INFO - Entered URL: /medicine/
